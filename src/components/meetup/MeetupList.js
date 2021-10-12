@@ -7,7 +7,6 @@ export const MeetupList = ({meetuplist}) => {
 
     return (
         <ul className="list">
-      
             {
                 meetuplist.map((meetup)=>
                     <MeetupItem key={meetup.id}meetup ={meetup} />)
